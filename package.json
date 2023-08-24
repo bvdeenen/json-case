@@ -1,0 +1,31 @@
+{
+  "name": "json-case",
+  "version": "1.0.0",
+  "description": "json snakecase camelcase switcher",
+  "author": "Bart van Deenen",
+  "keywords": [
+    "typescript",
+    "cli"
+  ],
+  "license": "MIT",
+  "main": "./dist/cli.js",
+  "bin": {
+    "json-case": "./dist/cli.js"
+  },
+  "files": [
+    "dist/**/*",
+    "!dist/**/*.test.js"
+  ],
+  "scripts": {
+    "dev": "ts-node ./src/cli.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "json_": "^3.0.1",
+    "typescript": "^5.2.2",
+    "yaml": "^2.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.6"
+  }
+}
