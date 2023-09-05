@@ -10,7 +10,7 @@
   "license": "MIT",
   "main": "./dist/cli.js",
   "bin": {
-    "json-case": "./dist/cli.js"
+    "json-case": "./bin/json-case"
   },
   "files": [
     "dist/**/*",
